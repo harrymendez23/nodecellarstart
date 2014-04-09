@@ -9,7 +9,7 @@ var Server = mongo.Server,
 //var server = new Server('localhost', 27017, {auto_reconnect: true});
 //REMOTE MongoDB server
 var server = new Server('mongodb://heroku_app23863485:shrcd1298brd28achocubh34bc@ds027628.mongolab.com:27628/heroku_app23863485', 27628, {auto_reconnect: true});
-//Connect to DB
+//Connect to DB 
 db = new Db('winedb', server);
 
 //Open DB
